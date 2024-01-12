@@ -27,3 +27,17 @@ Order anlegen die man in VsCode öffnen und bearbeiten möchte und mit Code . ö
 7: Ordner im VsCode anlegen: .gitignore - .DS_Store
 8: git commit -m "folder name"
 9: git push
+
+Nachdem wir alles geändert haben müssen wir jetzt die einzelnen dinge speichern indem wir ein commit erstellen und das ganze an unseren "boss" senden zum kontrollieren.
+
+10: git add .
+11: git commit -m "allles aufzeigen was geändert wurde"
+12: git status
+13: git push -u orgin + // name des branch //
+
+commit wurde erstellt und ist nun im Github hochgeladen
+
+- nun wird der alte branch also unsere kopie auf unserem pc gelöscht, wir brauchen es nicht mehr, es ist jetzt online.
+
+14: git switch main ( auf den hauptmain zurück kehren um jetzt lokal zu speichern)
+15: git branch -d + // branch name //
